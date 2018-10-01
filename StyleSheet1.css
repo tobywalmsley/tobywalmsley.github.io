@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'CIRCUIT_';
+    src: url('Content/css/CIRCUIT_.TTF') format('truetype');
+}
+
+body {
+    background-color: black;
+    background-image: url('images/background1.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+
+
+}
+h1{
+    color:lawngreen;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.video {
+    margin-top: 20%;
+}
+.steam {
+    margin-top: 3%;
+    height: 43px;
+    width: 365px;
+    font-family:Circuit;
+    color:lawngreen;
+    font-size:50px;
+}
+.jyst {
+    float:right;
+    position:absolute;
+    margin-bottom:0px;
+    top: 926px;
+    left: 0px;
+    height: 33px;
+    width: 50px;
+}
+
+.steam:hover {
+    font-weight: bolder;
+    
+}
+.steam a {
+    color: lawngreen;
+    font-size: 50px;
+    
+}
+
+#fade {
+    display: none
+}
