@@ -43,8 +43,9 @@ h1{
     width: 50px;
 }
 
-.steam:hover {
+.steam a:hover {
     font-weight: bolder;
+	color: #057214;
     
 }
 .steam a {
